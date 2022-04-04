@@ -1,0 +1,53 @@
+.all {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+
+}
+
+.menu-drop {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+
+
+}
+
+.row {
+  margin-right: 1%;
+}
+
+.btn {
+  font-weight: bolder;
+}
+
+.search {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  margin-right: 1%;
+  width: 35%;
+
+}
+
+.cerca-icon {
+  transform: translateY(35px);
+  margin-left: 10px;
+}
+
+.place {
+  transform: translateY(-30px);
+  margin-left: 35px;
+
+}
+
+#barr {
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.icon {
+  margin-right: 5%;
+}
