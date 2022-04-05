@@ -5,3 +5,11 @@
 .bg-azur {
   background-color: rgba(187, 203, 227, 255);
 }
+
+.nav-link {
+  color: #fff;
+}
+
+.color {
+  color: #000;
+}

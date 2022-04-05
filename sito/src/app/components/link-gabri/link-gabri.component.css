@@ -1,0 +1,28 @@
+.main {
+  display: flex;
+  flex-direction: row;
+}
+
+.photo {
+  width: 40%;
+  height: 7%;
+}
+
+.hone {
+  text-align: center;
+  color: #c39283;
+}
+
+.about {
+  width: 60%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #c39283;
+  color: #fff;
+}
+
+.lungo {
+  text-align: center;
+}
