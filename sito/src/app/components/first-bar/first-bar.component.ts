@@ -6,10 +6,12 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./first-bar.component.css']
 })
 export class FirstBarComponent implements OnInit {
-
+present: boolean= true;
   constructor() { }
 
   ngOnInit(): void {
   }
-
+hidden(): void {
+  this.present=!this.present
+};
 }

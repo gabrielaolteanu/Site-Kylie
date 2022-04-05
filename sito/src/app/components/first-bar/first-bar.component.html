@@ -1,4 +1,4 @@
-<div class="w-100 d-flex" style="background-color: #eee;">
+<div class="w-100 d-flex" style="background-color: #eee;" *ngIf="present">
   <div class="border d-flex  justify-content-center align-items-center bg-white text-black   w-25  ">
     <p class="mt-2"> <b>KYLIE</b></p>
   </div>
@@ -11,4 +11,6 @@
   <div class="border d-flex  justify-content-center align-items-center bg-azur text-white  w-25 ">
     <p class="mt-2"><b>KYLIE</b>BABY </p>
   </div>
+
 </div>
+<button class="btn" (click)="hidden()">Click</button>

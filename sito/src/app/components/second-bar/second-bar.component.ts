@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { FormControl } from '@angular/forms';
 
 @Component({
   selector: 'app-second-bar',
@@ -6,6 +7,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./second-bar.component.css']
 })
 export class SecondBarComponent implements OnInit {
+show: boolean= false;
 
   constructor() { }
 
