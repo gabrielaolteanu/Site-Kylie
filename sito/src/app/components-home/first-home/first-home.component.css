@@ -1,0 +1,27 @@
+ .home-page {
+   display: flex;
+   flex-direction: row;
+ }
+
+ .text {
+   width: 50%;
+   background-color: #e9b7c3;
+   color: #fff;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   font-size: 35px;
+
+ }
+
+ .light {
+   font-weight: lighter;
+ }
+
+ /**background-color: #ffb4bc;;*/
+ .foot {
+
+   background-color: #000000
+ }
