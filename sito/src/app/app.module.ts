@@ -15,6 +15,7 @@ import { ButtonComponent } from './components/button/button.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { FavoriteComponent } from './components-home/favorite/favorite.component';
 import { HomeComponent } from './components-home/home/home.component';
+import { SecondHomeComponent } from './components-home/second-home/second-home.component';
 
 @NgModule({
   declarations: [
@@ -29,7 +30,8 @@ LinkGabriComponent,
 ButtonComponent,
 FooterComponent,
 FavoriteComponent,
-HomeComponent
+HomeComponent,
+SecondHomeComponent
   ],
   imports: [
     BrowserModule,
