@@ -1,1 +1,11 @@
-<p>favorite works!</p>
+<div class="favorite">
+  <img class="foto">
+  <div class="d-flex flex-column justify-content-center align-items-center">
+    <p class="collection">{{_card.text}}</p>
+    <p class="price">$ 50</p>
+    <button [ngClass]="_card.type">
+      <p class="par">ADD TO CART</p>
+    </button>
+  </div>
+
+</div>

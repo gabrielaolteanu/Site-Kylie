@@ -1,0 +1,48 @@
+.favorite {
+  border: solid 2px rgb(230, 227, 227);
+  width: 330px;
+  height: 600px;
+
+}
+
+.collection {
+  margin-top: 20px;
+}
+
+.price {
+  font-size: 12px;
+}
+
+button {
+  border: 1px solid black;
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 200px;
+}
+
+button:hover {
+  background-color: black;
+  color: #fff;
+}
+
+.par {
+  margin-top: 10px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.foto {
+  width: 326px;
+  height: 350px;
+  background-image: url("../../../assets/lipstick.jpg");
+  background-size: cover;
+}
+
+.foto:hover {
+  width: 326px;
+  height: 350px;
+  background-image: url("../../../assets/lips.jpg");
+  background-size: cover;
+}
